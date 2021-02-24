@@ -36,11 +36,5 @@ namespace asp_react_project.Controllers
             })
             .ToArray();
         }
-
-        [HttpPost]
-        public IEnumerable<WeatherForecast> Post()
-        {
-
-        }
     }
 }
